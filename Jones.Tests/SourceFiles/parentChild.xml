@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<model assemblyName="Jones" NameSpace="Model">
+  <class name="Team">
+    <property name="Name" type="string" />
+    <property name="Products" type="Product[]" />
+  </class>
+  <class name="Product">
+    <property name="Name" type="string" />
+  </class>
+</model>
