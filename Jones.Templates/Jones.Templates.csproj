@@ -7,7 +7,7 @@
     <ProjectGuid>{098E8AEF-6C86-4751-BAD6-30F2B5E797C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jones</RootNamespace>
+    <RootNamespace>Jones.Templates</RootNamespace>
     <AssemblyName>Jones</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,6 +42,10 @@
   <ItemGroup>
     <Compile Include="ModelBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Templates\Classes\" />
+    <Folder Include="Templates\Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

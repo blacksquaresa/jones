@@ -1,17 +1,13 @@
 ﻿using System;
 using System.CodeDom;
 using System.CodeDom.Compiler;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Reflection.Emit;
 using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
 using System.Xml.Linq;
 using Microsoft.CSharp;
 
-namespace Jones
+namespace Jones.Templates
 {
   public class ModelBuilder
   {

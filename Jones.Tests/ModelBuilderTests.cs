@@ -2,6 +2,7 @@
 using System.CodeDom;
 using System.IO;
 using System.Net.Mime;
+using Jones.Templates;
 using Jones.Tests.Helpers;
 using NUnit.Framework;
 using Shouldly;
