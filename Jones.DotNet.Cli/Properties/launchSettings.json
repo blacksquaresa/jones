@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Jones.DotNet.Cli": {
+      "commandName": "Project"
+    }
+  }
+}
